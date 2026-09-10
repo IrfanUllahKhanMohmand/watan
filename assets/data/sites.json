@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bala-hisar",
+    "title": "Bala Hisar Fort",
+    "latitude": 34.0126,
+    "longitude": 71.5734,
+    "explainer": "This hill fort has watched Peshawar for centuries. Whoever held it held the city below. Today it is still a military site, which is why the walls look closed-off even as the bazaar runs right up to them."
+  },
+  {
+    "id": "qissa-khwani",
+    "title": "Qissa Khwani Bazaar",
+    "latitude": 34.0105,
+    "longitude": 71.5695,
+    "explainer": "The 'street of storytellers' was where caravans stopped and news travelled by tea and talk. In 1930 a protest here was fired on; the bazaar is still the city's living room, not a museum."
+  },
+  {
+    "id": "islamia-college",
+    "title": "Islamia College",
+    "latitude": 34.0004,
+    "longitude": 71.4758,
+    "explainer": "Opened in 1913 so boys from the frontier could study without leaving home. The red-brick campus is a landmark of that bet: education in Peshawar, not only in the cities further east."
+  }
+]
