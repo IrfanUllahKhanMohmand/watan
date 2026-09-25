@@ -30,6 +30,7 @@ void main() {
     const site = Site(
       id: 'qissa-khwani',
       title: 'Qissa Khwani Bazaar',
+      tagline: 'Street of storytellers',
       latitude: 34.01,
       longitude: 71.57,
       explainer: 'The street of storytellers.',
@@ -42,6 +43,8 @@ void main() {
     );
 
     expect(find.text('Qissa Khwani Bazaar'), findsOneWidget);
+    expect(find.text('Street of storytellers'), findsOneWidget);
+    expect(find.text('Why it matters'), findsOneWidget);
     expect(find.text('The street of storytellers.'), findsOneWidget);
   });
 }

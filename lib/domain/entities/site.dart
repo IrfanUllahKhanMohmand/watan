@@ -5,6 +5,7 @@ class Site {
     required this.latitude,
     required this.longitude,
     required this.explainer,
+    this.tagline,
   });
 
   final String id;
@@ -12,6 +13,7 @@ class Site {
   final double latitude;
   final double longitude;
   final String explainer;
+  final String? tagline;
 
   factory Site.fromJson(Map<String, dynamic> json) {
     return Site(
@@ -20,6 +22,7 @@ class Site {
       latitude: (json['latitude'] as num).toDouble(),
       longitude: (json['longitude'] as num).toDouble(),
       explainer: json['explainer'] as String,
+      tagline: json['tagline'] as String?,
     );
   }
 }
